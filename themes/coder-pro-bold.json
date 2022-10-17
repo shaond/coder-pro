@@ -1,5 +1,5 @@
 {
-  "name": "Brackets Light Pro",
+  "name": "Coder Pro",
   "colors": {
     "editor.background": "#f8f8f8",
     "editorCursor.foreground": "#000000",
@@ -106,7 +106,6 @@
       "name": "User-defined constant",
       "scope": "constant.other",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#e88501"
       }
     },

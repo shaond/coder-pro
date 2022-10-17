@@ -1,16 +1,5 @@
-# Brackets Light Pro
+# Coder Pro
 
-[![install](https://vsmarketplacebadge.apphb.com/installs/fehey.brackets-light-pro.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fehey.brackets-light-pro)
+This theme is based on Brackets Light, but removes italics for user defined constants.
 
-This is a theme for VSCode basic Brackets Light and more beautiful.
-
-If you like it or you have other idea, welcome to my github to write issues PR and star.
-
-github: https://github.com/EryouHao/brackets-light-pro
-
-## Screenshot
-![Brackets Light Pro](https://raw.githubusercontent.com/EryouHao/brackets-light-pro/master/static/brackets-light-pro.png)
-
-Screenshot font is `Fantasque Sans Mono`, icon is `VSCode Great Icons`
-
-**Enjoy!**
+This is a theme based on Brackets Light. Original author's repo: https://github.com/EryouHao/brackets-light-pro

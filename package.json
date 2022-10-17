@@ -1,10 +1,10 @@
 {
-    "name": "brackets-light-pro",
-    "displayName": "Brackets Light Pro",
+    "name": "coder-pro",
+    "displayName": "Coder Pro",
     "icon": "icon.png",
-    "description": "A theme basic Brackets Light and more beautiful.",
-    "version": "0.4.6",
-    "publisher": "fehey",
+    "description": "A theme based on Brackets Light which removes italics for improved readability.",
+    "version": "0.0.1",
+    "publisher": "shaond",
     "engines": {
         "vscode": "^1.17.0"
     },
@@ -13,7 +13,7 @@
     ],
     "repository": {
 		"type": "git",
-		"url": "https://github.com/EryouHao/brackets-light-pro"
+		"url": "https://github.com/shaond/coder-pro"
     },
     "keywords": [
 		"VSCode",
@@ -22,14 +22,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Brackets Light Pro",
+                "label": "Coder Pro",
                 "uiTheme": "vs",
-                "path": "./themes/Brackets Light Pro-color-theme.json"
+                "path": "./themes/coder-pro.json"
             },
             {
-                "label": "Brackets Light Pro Bold",
+                "label": "Coder Pro Bold",
                 "uiTheme": "vs",
-                "path": "./themes/Brackets Light Pro-color-theme-Bold.json"
+                "path": "./themes/coder-pro-bold.json"
             }
         ]
     }

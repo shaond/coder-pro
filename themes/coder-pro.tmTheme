@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>author</key>
-    <string>Eryou Hao</string>
+    <string>Shaon Diwakar</string>
     <key>name</key>
-    <string>Brackets Light Pro</string>
+    <string>Coder Pro</string>
     <key>settings</key>
     <array>
         <dict>
@@ -145,8 +145,6 @@
             <string>constant.other</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#e88501</string>
             </dict>
