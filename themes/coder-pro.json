@@ -22,14 +22,15 @@
     "editorSuggestWidget.selectedBackground": "#dbdde0",
     "editorSuggestWidget.selectedForeground": "#101c32",
     "quickInputList.focusBackground": "#dbdde0",
-    "quickInputList.focusForeground": "#101c32"
+    "quickInputList.focusForeground": "#101c32",
+    "editorError.foreground": "#f76060"
   },
   "tokenColors": [
     {
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#10a567"
+        "foreground": "#9ea0a3"
       }
     },
     {
@@ -85,7 +86,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#6d8600"
+        "foreground": "#50b507"
       }
     },
     {
@@ -145,7 +146,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#6d8600"
+        "foreground": "#50b507"
       }
     },
     {
@@ -192,7 +193,7 @@
       "name": "CSS at-rule support constant",
       "scope": "meta.at-rule support.constant",
       "settings": {
-        "foreground": "#6d8600"
+        "foreground": "#50b507"
       }
     },
     {
@@ -237,7 +238,7 @@
         "meta.at-rule constant.numeric.css keyword.other.unit.css"
       ],
       "settings": {
-        "foreground": "#6d8600"
+        "foreground": "#50b507"
       }
     },
     {
@@ -313,7 +314,7 @@
       "name": "LaTeX mathmode",
       "scope": "text.tex.latex string.other.math",
       "settings": {
-        "foreground": "#6d8600"
+        "foreground": "#50b507"
       }
     },
     {
@@ -353,7 +354,7 @@
       "name": "LaTeX package",
       "scope": "text.tex.latex meta.preamble.latex support.class.latex",
       "settings": {
-        "foreground": "#6d8600"
+        "foreground": "#50b507"
       }
     },
     {
