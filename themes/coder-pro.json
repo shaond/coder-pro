@@ -23,7 +23,8 @@
     "editorSuggestWidget.selectedForeground": "#101c32",
     "quickInputList.focusBackground": "#e8eaed",
     "quickInputList.focusForeground": "#101c32",
-    "editorError.foreground": "#ff9191"
+    "editorError.foreground": "#faa2a2",
+    "minimap.errorHighlight": "#faa2a2"
   },
   "tokenColors": [
     {
@@ -79,14 +80,14 @@
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "##d47902"
+        "foreground": "#d47902"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#479e09"
+        "foreground": "#b44cf5"
       }
     },
     {
@@ -146,7 +147,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#50b507"
+        "foreground": "#47a106"
       }
     },
     {
@@ -193,7 +194,7 @@
       "name": "CSS at-rule support constant",
       "scope": "meta.at-rule support.constant",
       "settings": {
-        "foreground": "#50b507"
+        "foreground": "#47a305"
       }
     },
     {
@@ -238,7 +239,7 @@
         "meta.at-rule constant.numeric.css keyword.other.unit.css"
       ],
       "settings": {
-        "foreground": "#479e09"
+        "foreground": "#b44cf5"
       }
     },
     {
@@ -314,7 +315,7 @@
       "name": "LaTeX mathmode",
       "scope": "text.tex.latex string.other.math",
       "settings": {
-        "foreground": "#50b507"
+        "foreground": "#47a106"
       }
     },
     {
@@ -354,7 +355,7 @@
       "name": "LaTeX package",
       "scope": "text.tex.latex meta.preamble.latex support.class.latex",
       "settings": {
-        "foreground": "#50b507"
+        "foreground": "#47a106"
       }
     },
     {
@@ -472,14 +473,14 @@
       "name": "parameter function",
       "scope": "function.parameter",
       "settings": {
-        "foreground": "##d47902"
+        "foreground": "#d47902"
       }
     },
     {
       "name": "js/ts Keyword new",
       "scope": "keyword.oper",
       "settings": {
-        "foreground": "##d47902"
+        "foreground": "#d47902"
       }
     },
     {
@@ -539,6 +540,79 @@
         "settings": {
             "foreground": "#42567b"
         }
+    },
+    {
+      "scope": "string variable",
+      "settings": {
+        "foreground": "#353535"
+      }
+    },{
+      "name": "Markup: Heading",
+      "scope": "markup.heading",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup: Strong",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Sections",
+      "scope": "entity.name.section",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS: Important Keyword",
+      "scope": "keyword.other.important",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "meta.require",
+        "support.function.any-method",
+        "variable.function"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": "entity.name.type.namespace",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Headings",
+      "scope": "markup.heading",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": "markup.bold,todo.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "markup.bold.markdown",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold"
+      }
     },
     {
       "scope": "string variable",
