@@ -87,7 +87,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#b44cf5"
+        "foreground": "#c717d4"
       }
     },
     {
@@ -239,7 +239,7 @@
         "meta.at-rule constant.numeric.css keyword.other.unit.css"
       ],
       "settings": {
-        "foreground": "#b44cf5"
+        "foreground": "#c717d4"
       }
     },
     {
