@@ -64,7 +64,10 @@
     },
     {
       "name": "Storage modifier",
-      "scope": ["storage.modifier.import", "storage.modifier.package"],
+      "scope": [
+        "storage.modifier.import",
+        "storage.modifier.package"
+      ],
       "settings": {
         "foreground": "#535353"
       }
@@ -305,7 +308,10 @@
     },
     {
       "name": "LaTeX keywords",
-      "scope": ["text.tex.latex constant", "text.tex.latex constant.other"],
+      "scope": [
+        "text.tex.latex constant",
+        "text.tex.latex constant.other"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#386ac3"
@@ -504,13 +510,13 @@
       "settings": {
         "foreground": "#386ac3"
       }
-		},
-		{
-				"name": "js/ts import keyword",
-				"scope": "keyword.operator.expression.import",
-				"settings": {
-						"foreground": "#386ac3"
-				}
+    },
+    {
+      "name": "js/ts import keyword",
+      "scope": "keyword.operator.expression.import",
+      "settings": {
+        "foreground": "#386ac3"
+      }
     },
     {
       "name": "Entity",
@@ -520,33 +526,33 @@
       }
     },
     {
-        "name": "Classes",
-        "scope": "entity.name.type.namespace",
-        "settings": {
-            "foreground": "#5978f3"
-        }
+      "name": "Classes",
+      "scope": "entity.name.type.namespace",
+      "settings": {
+        "foreground": "#5978f3"
+      }
     },
     {
-        "name": "Type Name",
-        "scope": "entity.name.type",
-        "settings": {
-            "foreground": "#163fe4"
-        }
+      "name": "Type Name",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#163fe4"
+      }
     },
     {
-        "name": "ts primitive/builtin types",
-        "scope":
-        "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
-        "settings": {
-            "foreground": "#42567b"
-        }
+      "name": "ts primitive/builtin types",
+      "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
+      "settings": {
+        "foreground": "#42567b"
+      }
     },
     {
       "scope": "string variable",
       "settings": {
         "foreground": "#353535"
       }
-    },{
+    },
+    {
       "name": "Markup: Heading",
       "scope": "markup.heading",
       "settings": {
