@@ -12,19 +12,24 @@
         "Themes"
     ],
     "repository": {
-		"type": "git",
-		"url": "https://github.com/shaond/coder-pro"
+        "type": "git",
+        "url": "https://github.com/shaond/coder-pro"
     },
     "keywords": [
-		"VSCode",
-		"Themes"
-	],
+        "VSCode",
+        "Themes"
+    ],
     "contributes": {
         "themes": [
             {
                 "label": "Coder Pro",
                 "uiTheme": "vs",
                 "path": "./themes/coder-pro.json"
+            },
+            {
+                "label": "Coder Pro Plus",
+                "uiTheme": "vs",
+                "path": "./themes/coder-pro-plus.json"
             }
         ]
     }

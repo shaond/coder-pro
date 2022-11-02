@@ -1,7 +1,7 @@
 {
   "name": "Coder Pro",
   "colors": {
-    "editor.background": "#f8f8f8",
+    "editor.background": "#ffffff",
     "editorCursor.foreground": "#000000",
     "editor.foreground": "#353535",
     "editor.lineHighlightBackground": "#f5f5fc",
