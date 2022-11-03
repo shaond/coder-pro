@@ -479,8 +479,7 @@
             "name": "[JAVASCRIPT] - Storage Type Function",
             "scope": "source.js storage.type.function, source.ts storage.type.function",
             "settings": {
-                "foreground": "#8c0ced",
-                "fontStyle": "bold"
+                "foreground": "#8c0ced"
             }
         },
         {
