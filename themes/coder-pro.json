@@ -31,7 +31,7 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#9ea0a3"
+                "foreground": "#b6b6b8"
             }
         },
         {
@@ -150,7 +150,7 @@
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#b307ad"
+                "foreground": "#5b28b4"
             }
         },
         {
@@ -456,7 +456,8 @@
             "scope": [
                 "support.module.node.js",
                 "support.type.object.module.js",
-                "support.module.node.js"
+                "support.module.node.js",
+                "meta.type.annotation.js"
             ],
             "settings": {
                 "foreground": "#4671bb"
@@ -484,7 +485,11 @@
         },
         {
             "name": "[JAVASCRIPT] - Variable Language",
-            "scope": "variable.language, entity.name.type.class.js",
+            "scope": [
+                "variable.language",
+                "entity.name.type.class.js",
+                "entity.name.type.js"
+            ],
             "settings": {
                 "foreground": "#8c0ced"
             }
@@ -500,7 +505,7 @@
             "name": "parameter function",
             "scope": "function.parameter",
             "settings": {
-                "foreground": "#d47902"
+                "foreground": "#d15604"
             }
         },
         {
@@ -659,9 +664,15 @@
             }
         },
         {
-            "scope": "string variable",
+            "scope": "variable",
             "settings": {
-                "foreground": "#353535"
+                "foreground": "#3d3d3d"
+            }
+        },
+        {
+            "scope": "meta.property-name",
+            "settings": {
+                "foreground": "#1b853a"
             }
         }
     ]
