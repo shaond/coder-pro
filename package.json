@@ -2,7 +2,7 @@
     "name": "coder-pro",
     "displayName": "Coder Pro",
     "icon": "icon.png",
-    "description": "A theme based on Brackets Light which removes italics for improved readability.",
+    "description": "A VS Code theme for Pro Coders",
     "version": "0.0.1",
     "publisher": "shaond",
     "engines": {
@@ -25,11 +25,6 @@
                 "label": "Coder Pro",
                 "uiTheme": "vs",
                 "path": "./themes/coder-pro.json"
-            },
-            {
-                "label": "Coder Pro Plus",
-                "uiTheme": "vs",
-                "path": "./themes/coder-pro-plus.json"
             }
         ]
     }
