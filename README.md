@@ -6,4 +6,4 @@ An example, using Golang:
 
 <img src="static/coder-pro-go-example.png" />
 
-Original author's repo: https://github.com/EryouHao/brackets-light-pro
+Click [here](https://code.visualstudio.com/api/references/theme-color) to see all configurable settings related to VS Code.

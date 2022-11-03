@@ -38,7 +38,7 @@
             "name": "String",
             "scope": "string",
             "settings": {
-                "foreground": "#5ac210"
+                "foreground": "#d67b02"
             }
         },
         {
@@ -90,7 +90,7 @@
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#c717d4"
+                "foreground": "#1798d4"
             }
         },
         {
@@ -150,7 +150,7 @@
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#e561ff"
+                "foreground": "#b307ad"
             }
         },
         {
@@ -459,7 +459,7 @@
                 "support.module.node.js"
             ],
             "settings": {
-                "foreground": "#000000"
+                "foreground": "#4671bb"
             }
         },
         {
@@ -476,6 +476,28 @@
             }
         },
         {
+            "name": "[JAVASCRIPT] - Storage Type Function",
+            "scope": "source.js storage.type.function, source.ts storage.type.function",
+            "settings": {
+                "foreground": "#8c0ced",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "[JAVASCRIPT] - Variable Language",
+            "scope": "variable.language, entity.name.type.class.js",
+            "settings": {
+                "foreground": "#8c0ced"
+            }
+        },
+        {
+            "name": "[JAVASCRIPT] - Inherited Component",
+            "scope": "entity.other.inherited-class.js",
+            "settings": {
+                "foreground": "#ccc"
+            }
+        },
+        {
             "name": "parameter function",
             "scope": "function.parameter",
             "settings": {
@@ -487,6 +509,13 @@
             "scope": "keyword.oper",
             "settings": {
                 "foreground": "#d47902"
+            }
+        },
+        {
+            "name": "js/ts import keyword",
+            "scope": "keyword.operator.expression.import",
+            "settings": {
+                "foreground": "#386ac3"
             }
         },
         {
@@ -512,10 +541,20 @@
             }
         },
         {
-            "name": "js/ts import keyword",
-            "scope": "keyword.operator.expression.import",
+            "name": "[JSON] - Support",
+            "scope": "source.json support",
             "settings": {
-                "foreground": "#386ac3"
+                "foreground": "#ffc600"
+            }
+        },
+        {
+            "name": "[JSON] - String",
+            "scope": [
+                "source.json string",
+                "source.json punctuation.definition.string"
+            ],
+            "settings": {
+                "foreground": "#e1efff"
             }
         },
         {
