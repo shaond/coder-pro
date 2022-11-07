@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Cobalt",
+  "name": "Coder Pro Dark Flow",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -11,12 +11,10 @@
     "interface": {
       // "foreground": "#ff0088",
       "foreground": "#FF68B8",
-      "italic": true
     },
     "type": {
       // "foreground": "#ff0088",
       "foreground": "#FF68B8",
-      "italic": true
     },
     // This colours both object definiton properties, as well as references. If the property does not exist, it will be white\.
     "property": "#9effff"
@@ -101,7 +99,6 @@
     "editorGutter.deletedBackground": "#A22929",
     "editorGutter.modifiedBackground": "#26506D",
     // editorGroup
-    "editorGroup.background": "#A22929",
     "editorGroup.border": "#122738",
     "editorGroup.dropBackground": "#12273899",
     // editorGroupHeader
@@ -289,16 +286,16 @@
     "titleBar.inactiveBackground": "#193549",
     "titleBar.inactiveForeground": "#ffffff33",
     "walkThrough.embeddedEditorBackground": "#0d3a58",
-    "welcomePage.buttonBackground": "#193549",
-    "welcomePage.buttonHoverBackground": "#0d3a58",
     "widget.shadow": "#00000026"
   },
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#0088ff"
       }
     },
@@ -399,14 +396,20 @@
     },
     {
       "name": "String",
-      "scope": ["string", "punctuation.definition.string"],
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#a5ff90"
       }
     },
     {
       "name": "String Template",
-      "scope": ["string.template", "punctuation.definition.string.template"],
+      "scope": [
+        "string.template",
+        "punctuation.definition.string.template"
+      ],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -441,7 +444,10 @@
     },
     {
       "name": "[CSS] - Entity",
-      "scope": ["source.css entity", "source.stylus entity"],
+      "scope": [
+        "source.css entity",
+        "source.stylus entity"
+      ],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -462,7 +468,10 @@
     },
     {
       "name": "[CSS] - Support",
-      "scope": ["source.css support", "source.stylus support"],
+      "scope": [
+        "source.css support",
+        "source.stylus support"
+      ],
       "settings": {
         "foreground": "#a5ff90"
       }
@@ -493,7 +502,10 @@
     },
     {
       "name": "[CSS] - Variable",
-      "scope": ["source.css variable", "source.stylus variable"],
+      "scope": [
+        "source.css variable",
+        "source.stylus variable"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
@@ -516,7 +528,6 @@
       "name": "[HTML] - Entity Other",
       "scope": "text.html.basic entity.other",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#ffc600"
       }
     },
@@ -708,14 +719,20 @@
     },
     {
       "name": "[MARKDOWN] - Inline Code",
-      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "scope": [
+        "fenced_code.block.language",
+        "markup.inline.raw.markdown"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
     },
     {
       "name": "[MARKDOWN] - Code Block",
-      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "scope": [
+        "fenced_code.block.language",
+        "markup.inline.raw.markdown"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
@@ -805,40 +822,23 @@
       }
     },
     {
-      "name": "Italicsify for Operator Mono",
+      "name": "Export Default",
       "scope": [
-        "modifier",
-        "this",
-        "comment",
-        "storage.modifier",
-        "entity.other.attribute-name.js",
-        // "storage.modifier.js",
-        // "storage.modifier.ts",
-        // "storage.modifier.tsx",
-        "entity.other.attribute-name.js",
-        "entity.other.attribute-name.ts",
-        "entity.other.attribute-name.tsx",
-        "entity.other.attribute-name.html"
+        "keyword.control.export"
       ],
       "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Export Default",
-      "scope": ["keyword.control.export"],
-      "settings": {
         "foreground": "#ff9d00",
-        "fontStyle": "italic"
       }
     },
     {
       "name": "[TYPESCRIPT] Returned Type",
-      "scope": ["meta.return.type.ts"],
+      "scope": [
+        "meta.return.type.ts"
+      ],
       "settings": {
         "foreground": "#ff0088",
-        "fontStyle": "italic"
       }
     }
+    // "include": "./coder-pro-dark-flow.italics.json"
   ]
 }
