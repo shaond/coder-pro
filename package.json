@@ -25,6 +25,11 @@
                 "label": "Coder Pro",
                 "uiTheme": "vs",
                 "path": "./themes/coder-pro.json"
+            },
+            {
+                "label": "Coder Pro Dark",
+                "uiTheme": "vs",
+                "path": "./themes/coder-pro-dark.json"
             }
         ]
     }
