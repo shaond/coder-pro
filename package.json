@@ -27,9 +27,9 @@
                 "path": "./themes/coder-pro.json"
             },
             {
-                "label": "Coder Pro Max",
+                "label": "Coder Pro Max Flow",
                 "uiTheme": "vs",
-                "path": "./themes/coder-pro-max.json"
+                "path": "./themes/coder-pro-max-flow.json"
             },
             {
                 "label": "Coder Pro Dark Flow",
