@@ -20,8 +20,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#93A1A1"
+        "foreground": "#a8a592"
       }
     },
     {
